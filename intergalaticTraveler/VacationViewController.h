@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  VacationViewController.h
 //  intergalaticTraveler
 //
 //  Created by Michael Moss on 10/19/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface VacationViewController : UIViewController
+@property NSString *imageName;
 @end
-

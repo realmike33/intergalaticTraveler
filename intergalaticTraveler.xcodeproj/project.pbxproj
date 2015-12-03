@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		EF67DCF21BD5D881008579D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67DCF11BD5D881008579D6 /* main.m */; };
 		EF67DCF51BD5D881008579D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67DCF41BD5D881008579D6 /* AppDelegate.m */; };
-		EF67DCF81BD5D881008579D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67DCF71BD5D881008579D6 /* ViewController.m */; };
 		EF67DCFB1BD5D881008579D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF67DCF91BD5D881008579D6 /* Main.storyboard */; };
 		EF67DCFD1BD5D881008579D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF67DCFC1BD5D881008579D6 /* Assets.xcassets */; };
 		EF67DD001BD5D881008579D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF67DCFE1BD5D881008579D6 /* LaunchScreen.storyboard */; };
 		EF67DD0B1BD5D881008579D6 /* intergalaticTravelerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67DD0A1BD5D881008579D6 /* intergalaticTravelerTests.m */; };
 		EF67DD161BD5D881008579D6 /* intergalaticTravelerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67DD151BD5D881008579D6 /* intergalaticTravelerUITests.m */; };
+		EF67DD281BD5D97E008579D6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67DD271BD5D97E008579D6 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF67DD2B1BD5EBED008579D6 /* VacationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF67DD2A1BD5EBED008579D6 /* VacationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF67DD321BD5ECE8008579D6 /* blue_star.png in Resources */ = {isa = PBXBuildFile; fileRef = EF67DD2C1BD5ECE8008579D6 /* blue_star.png */; settings = {ASSET_TAGS = (); }; };
+		EF67DD331BD5ECE8008579D6 /* blue_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF67DD2D1BD5ECE8008579D6 /* blue_star@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EF67DD341BD5ECE8008579D6 /* blue_star@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF67DD2E1BD5ECE8008579D6 /* blue_star@3x.png */; settings = {ASSET_TAGS = (); }; };
+		EF67DD351BD5ECE8008579D6 /* red_dwarf.png in Resources */ = {isa = PBXBuildFile; fileRef = EF67DD2F1BD5ECE8008579D6 /* red_dwarf.png */; settings = {ASSET_TAGS = (); }; };
+		EF67DD361BD5ECE8008579D6 /* red_dwarf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF67DD301BD5ECE8008579D6 /* red_dwarf@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EF67DD371BD5ECE8008579D6 /* red_dwarf@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF67DD311BD5ECE8008579D6 /* red_dwarf@3x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		EF67DCF11BD5D881008579D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF67DCF31BD5D881008579D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF67DCF41BD5D881008579D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF67DCF61BD5D881008579D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF67DCF71BD5D881008579D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EF67DCFA1BD5D881008579D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF67DCFC1BD5D881008579D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF67DCFF1BD5D881008579D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,16 @@
 		EF67DD111BD5D881008579D6 /* intergalaticTravelerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = intergalaticTravelerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF67DD151BD5D881008579D6 /* intergalaticTravelerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = intergalaticTravelerUITests.m; sourceTree = "<group>"; };
 		EF67DD171BD5D881008579D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF67DD261BD5D97E008579D6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		EF67DD271BD5D97E008579D6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		EF67DD291BD5EBED008579D6 /* VacationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VacationViewController.h; sourceTree = "<group>"; };
+		EF67DD2A1BD5EBED008579D6 /* VacationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VacationViewController.m; sourceTree = "<group>"; };
+		EF67DD2C1BD5ECE8008579D6 /* blue_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_star.png; sourceTree = "<group>"; };
+		EF67DD2D1BD5ECE8008579D6 /* blue_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue_star@2x.png"; sourceTree = "<group>"; };
+		EF67DD2E1BD5ECE8008579D6 /* blue_star@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue_star@3x.png"; sourceTree = "<group>"; };
+		EF67DD2F1BD5ECE8008579D6 /* red_dwarf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dwarf.png; sourceTree = "<group>"; };
+		EF67DD301BD5ECE8008579D6 /* red_dwarf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_dwarf@2x.png"; sourceTree = "<group>"; };
+		EF67DD311BD5ECE8008579D6 /* red_dwarf@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_dwarf@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +116,18 @@
 		EF67DCEF1BD5D881008579D6 /* intergalaticTraveler */ = {
 			isa = PBXGroup;
 			children = (
-				EF67DCF31BD5D881008579D6 /* AppDelegate.h */,
-				EF67DCF41BD5D881008579D6 /* AppDelegate.m */,
-				EF67DCF61BD5D881008579D6 /* ViewController.h */,
-				EF67DCF71BD5D881008579D6 /* ViewController.m */,
+				EF67DD291BD5EBED008579D6 /* VacationViewController.h */,
+				EF67DD2A1BD5EBED008579D6 /* VacationViewController.m */,
+				EF67DD261BD5D97E008579D6 /* RootViewController.h */,
+				EF67DD271BD5D97E008579D6 /* RootViewController.m */,
 				EF67DCF91BD5D881008579D6 /* Main.storyboard */,
 				EF67DCFC1BD5D881008579D6 /* Assets.xcassets */,
+				EF67DD2C1BD5ECE8008579D6 /* blue_star.png */,
+				EF67DD2D1BD5ECE8008579D6 /* blue_star@2x.png */,
+				EF67DD2E1BD5ECE8008579D6 /* blue_star@3x.png */,
+				EF67DD2F1BD5ECE8008579D6 /* red_dwarf.png */,
+				EF67DD301BD5ECE8008579D6 /* red_dwarf@2x.png */,
+				EF67DD311BD5ECE8008579D6 /* red_dwarf@3x.png */,
 				EF67DCFE1BD5D881008579D6 /* LaunchScreen.storyboard */,
 				EF67DD011BD5D881008579D6 /* Info.plist */,
 				EF67DCF01BD5D881008579D6 /* Supporting Files */,
@@ -117,6 +138,8 @@
 		EF67DCF01BD5D881008579D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF67DCF31BD5D881008579D6 /* AppDelegate.h */,
+				EF67DCF41BD5D881008579D6 /* AppDelegate.m */,
 				EF67DCF11BD5D881008579D6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,6 +267,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF67DD001BD5D881008579D6 /* LaunchScreen.storyboard in Resources */,
+				EF67DD341BD5ECE8008579D6 /* blue_star@3x.png in Resources */,
+				EF67DD321BD5ECE8008579D6 /* blue_star.png in Resources */,
+				EF67DD361BD5ECE8008579D6 /* red_dwarf@2x.png in Resources */,
+				EF67DD371BD5ECE8008579D6 /* red_dwarf@3x.png in Resources */,
+				EF67DD331BD5ECE8008579D6 /* blue_star@2x.png in Resources */,
+				EF67DD351BD5ECE8008579D6 /* red_dwarf.png in Resources */,
 				EF67DCFD1BD5D881008579D6 /* Assets.xcassets in Resources */,
 				EF67DCFB1BD5D881008579D6 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF67DCF81BD5D881008579D6 /* ViewController.m in Sources */,
 				EF67DCF51BD5D881008579D6 /* AppDelegate.m in Sources */,
 				EF67DCF21BD5D881008579D6 /* main.m in Sources */,
+				EF67DD281BD5D97E008579D6 /* RootViewController.m in Sources */,
+				EF67DD2B1BD5EBED008579D6 /* VacationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
